@@ -2,7 +2,7 @@ package com.example.websoket.model;
 
 public class Message {
     private String content;
-    private String sendet;
+    private String sender;
     private MessageType type;
 
     public enum MessageType {
@@ -21,12 +21,12 @@ public class Message {
         this.type = type;
     }
 
-    public String getSendet() {
-        return sendet;
+    public String getSender() {
+        return sender;
     }
 
-    public void setSendet(String sendet) {
-        this.sendet = sendet;
+    public void setSender(String sender) {
+        this.sender = sender;
     }
 
     public void setContent(String content) {
